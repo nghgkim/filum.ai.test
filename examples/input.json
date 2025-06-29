@@ -1,0 +1,9 @@
+{
+  "pain_point": "We struggle to respond quickly to customer queries that are frequently asked.",
+  "context": {
+    "team_size": "Large",
+    "department": "Customer Support",
+    "channel_focus": ["Chat", "Email"]
+  },
+  "tags": ["automation", "faq", "support"]
+}

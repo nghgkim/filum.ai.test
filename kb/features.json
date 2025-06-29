@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ai_inbox_faq",
+    "feature_name": "AI Agent for FAQ & First Response",
+    "product_category": "AI Customer Service - AI Inbox",
+    "description": "Handles repetitive questions using an intelligent AI agent.",
+    "use_cases": ["Agent Productivity", "Customer Support Automation"],
+    "channels_supported": ["Email", "Chat", "Zalo"],
+    "tags": ["ai", "faq", "first response", "automation", "productivity"],
+    "more_info_url": "https://filum.ai/products/customer-service-ai/ai-agent"
+  },
+  {
+    "id": "voc_surveys_auto",
+    "feature_name": "Automated Post-Purchase Surveys",
+    "product_category": "VoC - Surveys",
+    "description": "Automatically send surveys after purchases via multiple channels.",
+    "use_cases": ["Feedback Collection", "Customer Satisfaction"],
+    "channels_supported": ["Email", "SMS", "Web", "QR"],
+    "tags": ["survey", "automation", "feedback", "post-purchase"],
+    "more_info_url": "https://filum.ai/products/voice-of-customer/survey"
+  }
+]
