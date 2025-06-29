@@ -1,13 +1,5 @@
 # Pain Point to Solution Agent – Prototype
 
-## Overview
-
-This prototype maps user-submitted business pain points to relevant Filum.ai features using semantic similarity (via embeddings) and contextual metadata matching.
-
-It demonstrates the core matching logic between pain points and product features. It is not a production-ready system, but provides a minimal working implementation for further development.
-
----
-
 ## Project Structure
 
 ```
@@ -22,11 +14,11 @@ It demonstrates the core matching logic between pain points and product features
 
 ---
 
-## ▶How to Run
+## How to Run
 
 ### 1. Install Requirements
 
-Ensure Python 3.8+ is installed, then install dependencies:
+Install dependencies:
 
 ```bash
 pip install -U sentence-transformers scikit-learn
@@ -42,7 +34,7 @@ This script will:
 - Load the feature KB (`kb/features.json`)
 - Load the input pain point (`examples/input.json`)
 - Compute similarity using embeddings + tags + context
-- Output the top 3 most relevant Filum.ai features in JSON format
+- Output the top most relevant Filum.ai features in JSON format
 
 ---
 
@@ -70,5 +62,3 @@ This script will:
   - Text similarity (embedding-based)
   - Tag overlap
   - Contextual boost (department + channel)
-
-Feel free to extend the logic or integrate it into a Flask API.
